@@ -1,0 +1,6 @@
+{
+  "src": "./src",
+  "dest": "./docs",
+  "template": "./node_modules/apidoc/template",
+  "plugins": ["param", "return"]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "calendar-event-management",
+  "version": "1.0.0",
+  "description": "This project is a simple event management application built using **Node.js**, **Express**, and a **MySQL** database. The application allows users to manage calendar events, with functionalities to create, update, delete, and view events.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+"scripts": {
+  "start": "node api.js",
+  "docs": "apidoc -i . -o apidoc/"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "apidoc": "^1.2.0"
+  }
+}
